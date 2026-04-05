@@ -1,16 +1,30 @@
-# React + Vite
+# 🍽️ Restaurant Token System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Restaurant Token Management System built with **React** and **useState** hook.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+👉 https://restaurant-token-app.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📁 Repository
+👉 https://github.com/Nagendrana/restaurant-token-app
 
-## React Compiler
+## ✨ Features
+- Track waiting tokens (max 50)
+- Now Serving counter
+- Available slots display
+- Status badges — All Clear / Almost Full / House Full
+- Progress bar shows capacity
+- Fully responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- React 
+- useState Hook
+- Vite
+- CSS
+- Vercel (Deployment)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Restrictions
+- Maximum 50 tokens allowed
+- Minimum 0 — cannot go below zero
+- Exit disabled when waiting is 0
+- Entry disabled when slots are full
